@@ -221,6 +221,34 @@ second product's differentiation comes precisely from that volume and
 specificity of real-world training data, which is very hard for a
 competitor to replicate without years of the same delivery history.
 
+## Outreach tone: deliberately informal beats polished for response rate
+
+Formally-written, properly-punctuated outreach (proper capitalization,
+full sentences, tidy formatting) increasingly reads as automated or
+bot-generated to recipients, which suppresses response rates. Writing
+support/CSM/outreach messages in a deliberately casual, quickly-typed
+register — lowercase, short, imperfectly punctuated, like a message
+someone fired off between tasks — can produce a dramatically higher
+response rate than the polished version, precisely because it signals a
+real human on the other end. Worth A/B testing formality level itself as
+a variable in any CSM/support/outreach sequence, not just message
+content.
+
+## Usage-monitoring as a passive, higher-relevance upsell channel
+
+Rather than relying only on proactive outbound check-ins (which
+routinely get low response rates), have a CSM or an agent passively
+monitor actual product usage or conversation logs for organic signals of
+a specific unmet need — then reach out at that exact moment with a
+narrowly relevant, low-cost next step tied to what the person was just
+doing. This produces far higher relevance and conversion than generic
+"checking in" outreach because the offer arrives already matched to a
+real, current context rather than guessed at. This is a natural
+extension of the context-profile approach: the same infrastructure that
+lets an AI system know the business can also be pointed at live usage
+data to surface upsell moments a human reviewer would only catch by
+manually reading logs.
+
 ## Layer 4 — Curated external knowledge base (AI as advisor)
 
 The same context-engineered setup can act as a personal or team business
