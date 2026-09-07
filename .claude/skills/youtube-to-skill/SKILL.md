@@ -1,6 +1,6 @@
 ---
 name: youtube-to-skill
-description: Transcribe a YouTube video from a pasted link and turn its content into a new Claude skill under .claude/skills/, or fold it into an existing matching skill. Trigger automatically whenever the user pastes one or more youtube.com / youtu.be links and asks to transcribe them, summarize them, or turn them into a skill — including Polish phrasing like "wrzucam link", "zrób z tego skilla", "zaktualizuj skilla", "transkrypcja z YT". Also trigger on a bare YouTube link with no extra instructions, since that is this project's whole workflow.
+description: Transcribe one or more YouTube videos — or every video from a pasted channel/playlist link — and turn the content into a new Claude skill under .claude/skills/, or fold it into an existing matching skill. Trigger automatically whenever the user pastes one or more youtube.com / youtu.be links (single video, channel handle like @name, /channel/, /c/, or a playlist) and asks to transcribe them, summarize them, or turn them into a skill — including Polish phrasing like "wrzucam link", "zrób z tego skilla", "zaktualizuj skilla", "transkrypcja z YT", "scrapuj kanał". Also trigger on a bare YouTube link with no extra instructions, since that is this project's whole workflow.
 ---
 
 # YouTube → Claude Skill automation
@@ -18,7 +18,25 @@ could plausibly belong to two very different existing skills).
 ## Step 1 — Collect the links
 
 Pull every YouTube URL out of the user's message (`youtube.com/watch?v=`,
-`youtu.be/`, `/shorts/`, `/live/`). Process each one in turn, steps 2-6.
+`youtu.be/`, `/shorts/`, `/live/`).
+
+**If a link is a channel or playlist instead of a single video**
+(`youtube.com/@handle`, `/channel/UC...`, `/c/name`, `/playlist?list=...`),
+expand it first:
+
+```
+python3 .claude/skills/youtube-to-skill/scripts/list_channel_videos.py "<url>" --limit 50
+```
+
+This prints `{"videos": [{"url": ..., "title": ...}, ...], "error": ...}`
+using yt-dlp's flat-playlist mode (fast, no per-video download). Default
+limit is 50 — for a channel, ask the user how many of the newest videos to
+process if they haven't said, rather than assuming "all of them" (channels
+can have hundreds). Then treat each returned `url` as an individual video
+link and process it through steps 2-6.
+
+Process every individual video link (from a direct link or an expanded
+channel/playlist) in turn through steps 2-6.
 
 ## Step 2 — Fetch the transcript
 
