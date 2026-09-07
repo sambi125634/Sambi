@@ -98,6 +98,28 @@ buyer" — comparable premium goods categories often have a mass-market tier
 and a specialist/status tier priced 10-100x apart for a similar underlying
 outcome.
 
+**Thin-margin, high-volume acquisition models need a pre-built buffer
+before seasonal cost inflation hits.** A business surviving on a small
+per-customer profit margin against paid acquisition cost is fragile to
+predictable, recurring cost spikes (holiday seasons, major cultural/
+sporting events, back-to-school periods, Q4 e-commerce competition all
+bidding up CPMs at once) — during those windows, acquisition cost can
+rise enough to erase a thin margin entirely. The practical implication:
+treat the calmer, lower-cost months as the priority window to drive
+conversion-rate improvements and build margin cushion, specifically
+*because* that cushion is what determines whether the business survives
+the next predictable inflationary period rather than getting forced to
+pull back right when competitors are spending hardest.
+
+**Recurring/subscription pricing is expected to rise as the offering
+matures, the same way established subscription services routinely raise
+prices as their content/feature library grows.** Treat a subscription
+price as fixed forever by default is an unforced constraint — as more
+value accumulates in the underlying product, periodic price increases
+(for new buyers, with existing buyers optionally grandfathered per the
+loyalty-pricing point above) are normal, not something to avoid out of
+fear of buyer backlash.
+
 **Don't bundle in a component the buyer may not be able to use — it can
 lower perceived value, not raise it.** If a package's headline pitch
 includes a benefit conditional on something the buyer might not have
