@@ -40,6 +40,29 @@ handful of weekly webinar/funnel runs) so each individual run has enough
 spend behind it to produce a real signal rather than statistically noisy
 data from an underfunded test.
 
+**Pre-flight check before committing to a number**: run the proposed
+budget through the stage-by-stage benchmark table above using
+*conservative* assumptions at every stage (cost per lead, show rate,
+retention, booking rate, call show rate, close rate, and your actual
+AOV) and see whether the resulting math can plausibly produce a
+worthwhile return at all. If conservative assumptions show the proposed
+budget is mathematically too small to reveal anything — not enough leads
+generated to reach statistical signal, or too small to cover the
+occasional bad run — increase the budget or extend the timeline before
+running it, rather than spending on a test that can't produce a
+meaningful read either way.
+
+**Match test cadence to audience temperature.** A warm-audience funnel
+(your own list/existing audience) saturates faster and is typically best
+run on a monthly-ish cadence to avoid audience fatigue. A cold-audience
+funnel targeting genuinely new people can and should run far more
+often — weekly at minimum, and twice a week or more once it's dialed in —
+since a new pool of cold prospects exists every cycle. Once a cold funnel
+is proven, it can be converted to an always-on, on-demand format (an
+"evergreen" webinar/presentation a prospect can watch any time) while
+still presenting as a scheduled, live-feeling event to preserve the
+urgency that gets people to actually show up.
+
 ## Reading the result of a test run
 
 - Expect most single test runs to roughly break even or produce a small
@@ -55,6 +78,26 @@ data from an underfunded test.
   combination (offer, messaging, funnel) actually works. Once triggered,
   increase spend deliberately (e.g. roughly doubling or more per step)
   rather than inching up, so you find the real scale ceiling faster.
+
+## The two-lever mental model for a call-funnel business
+
+For any business whose funnel ends in a booked sales call, nearly every
+operational problem reduces to one of exactly two levers, which makes
+triage much faster:
+
+1. **Filling the calendar** — generating enough qualified booked calls
+   (traffic, messaging, funnel conversion, show-rate).
+2. **Sales capacity** — having enough trained closers to handle the
+   calendar being filled.
+
+The growth loop is simply: scale spend to fill calendars past current
+capacity → hire/train more closers → fill their calendars too → repeat.
+When diagnosing a stuck business, first classify which of the two levers
+a given symptom actually belongs to (a "we don't have enough good leads"
+problem is lever 1; a "reps are maxed out and follow-up is slipping"
+problem is lever 2) before looking for a more exotic explanation — most
+day-to-day friction is a sub-symptom of whichever lever is currently
+behind.
 
 ## Execution discipline while testing
 

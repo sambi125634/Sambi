@@ -41,6 +41,32 @@ doing much more revenue at breakeven.
 
 ## Headcount is a liability to minimize, not a trophy to grow
 
+**Question whether a role needs to exist at all before optimizing it.**
+A well-known engineering discipline for controlling complexity is to
+challenge the necessity of a component *before* trying to improve it —
+the same applies directly to headcount and internal process. For any
+existing role or recurring task, explicitly ask whether the people it's
+meant to serve (customers, in most cases) would notice or care if it
+disappeared; a role protecting an output nobody outside the company
+actually values is a candidate for elimination, not just efficiency
+gains.
+
+**Favor fewer, higher-caliber hires over more, cheaper ones.** A small
+number of highly capable people, paid well above what feels comfortable
+early on, will frequently outperform a much larger team of average
+hires — both in raw output and in how much day-to-day management they
+require. A useful target framing: aim for a high multiple of output per
+payroll dollar in each role (order-of-magnitude thinking, e.g. "am I
+getting several times what a mediocre hire in this role would produce"),
+rather than optimizing purely for the lowest acceptable salary.
+
+**Manage and pay for outcomes, not time or visible effort.** Define a
+role by its deliverable and let the person decide how they spend the
+time around producing it, rather than trying to keep them occupied for a
+fixed number of hours — this both filters for people who can actually
+deliver independently and removes the manager's need to supervise
+effort rather than results.
+
 Rapid headcount growth funded by revenue growth tends to create management
 layers between the owner and both the frontline work and the customers,
 which makes it harder to catch underperforming teams or bad hires early,

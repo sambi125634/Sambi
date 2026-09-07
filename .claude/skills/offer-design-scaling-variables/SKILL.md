@@ -148,6 +148,23 @@ that skip this can be forced into abrupt cuts (staff, service quality)
 exactly when a formerly-reliable offer suddenly stops converting and a
 long fulfillment tail is still owed.
 
+**A written, explicit expectation-alignment document reduces refunds/
+chargebacks more reliably than better delivery alone.** Ambiguous terms
+in an offer (what a metric actually means, what's included vs. not) are
+a common source of buyer disputes that look like delivery failures but
+are really expectation mismatches. A plain-language one-page document
+that spells out exactly what's included, what specific terms mean, and
+what isn't included — with the buyer explicitly acknowledging each point
+(e.g. initialing next to each line) before purchase — resets the
+relationship and measurably reduces disputes. Treat any real dispute or
+confusion incident as a trigger to fix the underlying communication
+systemically (update the expectation document, onboarding material, or
+sales script for every future buyer) the same day, not just resolve the
+one case reactively. Escalate the safeguard proportionally to actual
+incidents — e.g., after any real chargeback on a specific offer, add a
+signed payment-authorization step for every subsequent buyer of that
+offer.
+
 ## 7. Upsell / retention architecture — build it into the initial offer, not after
 
 Retention and upsell mechanics work best when designed at the same time
@@ -184,6 +201,23 @@ as the core offer, not bolted on afterward:
   revenue is included — evaluate acquisition channels over a longer
   revenue horizon (including back-end monetization of the customer base
   they built), not just the immediate front-end return.
+- **Map actual customer paths, not just the aggregate repeat-purchase
+  rate.** Export the full lifetime customer list and compute what
+  percentage have paid more than once (a healthy benchmark to aim for is
+  over half) — this alone reveals how well the business converts a first
+  sale into a relationship. Go a level deeper and map the *specific*
+  paths customers take between offers (which offer they bought first,
+  what they bought next, how long the gap was) as percentages of total
+  customers. This routinely surfaces two different things: the
+  business's *dominant* path (highest volume, often just "renews the same
+  thing") and a separate, sometimes higher-value path that's happening
+  organically without being deliberately engineered — a strong signal for
+  where to build a deliberate marketing-automation sequence, since it's
+  proof of latent demand rather than a guess. This kind of analysis is a
+  good task to hand to an AI system loaded with the raw transaction data
+  — asking it targeted questions (which path is most common, most
+  lucrative, fastest, slowest) is faster than manually cross-tabulating a
+  CRM export.
 
 ## 8. Owner/founder dependency as a hard scaling ceiling
 
