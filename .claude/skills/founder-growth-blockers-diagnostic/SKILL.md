@@ -57,6 +57,38 @@ that context and, where the decision isn't urgent, deferring it until the
 context has changed — the underlying facts rarely change as fast as the
 emotional state does.
 
+## Audit the narrative against observable effort, not just its internal logic
+
+People who've stalled almost always have a coherent-sounding explanation
+for why. The useful test isn't whether the explanation is logically
+consistent — it's whether it matches what they can point to as concrete,
+recent, effortful action toward the stated goal. Results lag effort (a
+change made today shows up in outcomes later, not immediately), so
+someone can have been coasting for months while still believing, honestly,
+that they're pushing hard — the gap only becomes visible when you ask
+for specific recent actions rather than accepting the summary story.
+Useful question to surface this: "what have you concretely done in the
+last [period] to move this metric, independent of what happened as a
+result?"
+
+## Make the target concrete with real numbers, not a vague "more"
+
+A vague goal like "get richer" or "grow the business" is easy to
+under-pursue because there's no number to fall short of. Making the
+actual target explicit — what the desired lifestyle/business state costs,
+in real numbers — turns a vague aspiration into a measurable gap that's
+harder to rationalize away. One well-known framework for turning a
+lifestyle goal into a number: estimate the annual cost of the life you
+want, apply a conservative safe-withdrawal assumption (commonly cited as
+around 4%/year from an invested portfolio) to back into the portfolio
+size required to sustain it without active income, then use a compound-
+interest projection (freely available calculators exist, e.g. via
+regulatory/investor-education sites) to work out the monthly investment
+needed over a given timeframe to reach it — remembering to account for
+taxes and inflation, which both erode the naive version of this math
+significantly. The exercise itself, more than the specific numbers,
+tends to reset how "big" a current revenue target actually needs to be.
+
 ## Execution discipline once blockers are named
 
 Don't try to fix every identified gap simultaneously — see
