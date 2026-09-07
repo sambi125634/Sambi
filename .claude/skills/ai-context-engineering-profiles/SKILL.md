@@ -1,6 +1,6 @@
 ---
 name: ai-context-engineering-profiles
-description: Build a persistent, structured context profile (business intelligence + ICP psychology + platform-native intelligence + identity programming) that turns a generic LLM into an AI that writes/thinks like a specific business — plus how to curate an external knowledge base of world-class frameworks and use the same setup as a personal/team "AI advisor". Trigger when the user wants AI-generated content to stop "sounding like AI", wants to set up a Claude Project / persistent context for content or business advice, wants an AI ghostwriter trained on their voice, or wants to train a team using AI + curated frameworks. Also trigger on Polish phrasing like "profil kontekstowy AI", "AI piszący moim głosem", "baza wiedzy dla AI jako doradcy".
+description: Build a persistent, structured context profile (business intelligence + ICP psychology + platform-native intelligence + identity programming) that turns a generic LLM into an AI that writes/thinks like a specific business — usable in a Claude Project, embedded directly into automation/SDR/chatbot workflows (e.g. n8n), or as a curated "AI advisor" knowledge base. Trigger when the user wants AI-generated content to stop "sounding like AI", wants an AI agent/automation/chatbot to "understand the business" instead of giving generic answers, wants to build an ICP profile from sales-call or support-ticket transcripts, wants an AI ghostwriter trained on their voice, or wants to train a team using AI + curated frameworks. Also trigger on Polish phrasing like "profil kontekstowy AI", "AI piszący moim głosem", "baza wiedzy dla AI jako doradcy", "profil ICP z rozmów sprzedażowych".
 ---
 
 # Context engineering: AI that thinks like your best employee
@@ -28,6 +28,41 @@ model; markdown works too) in a persistent project/knowledge base:
 - **Personal/brand profile** — your own background, communication style,
   the way you personally articulate ideas (so output doesn't just sound
   correct, it sounds *like you*).
+- **Other profile types worth building the same way**: product strategy,
+  a marketing-frameworks profile distilled from campaigns that actually
+  converted (not generic playbooks), and a customer-success/support
+  profile mined from historical support tickets (patterns in what breaks,
+  what gets asked, what resolves fastest) — this last one is what makes an
+  e-commerce support chatbot handle edge cases like a senior agent instead
+  of a generic FAQ bot.
+
+**Fastest bootstrap for the ICP/support profiles specifically**: don't
+hand-write them. Paste raw, unedited call-recording transcripts (sales
+calls or support tickets — thousands of lines is fine, this doesn't need
+pre-cleaning) directly into the model and ask for a structured JSON output
+covering aspirations, pain points, fears/beliefs, lifestyle traits, buying
+motivations and frequency, tools currently used, objection patterns
+(word-for-word customer quotes are gold here), common questions, budget/
+timeline expectations, and success metrics they stated themselves. This
+one-shots a usable profile straight from raw operational data — no
+separate "generator project" step is required for this specific profile
+type (contrast with the more general bootstrap workflow below for
+profiles that don't come from a transcript corpus).
+
+**Treat it as a living document, not a one-time artifact.** After each new
+sales call or support interaction, feed the new transcript back in and ask
+whether it changes the existing profile — this keeps the ICP/support
+profile current as the market and product evolve, instead of decaying
+into a stale snapshot from whenever it was first built.
+
+**This generalizes past content generation.** The same JSON context
+profile can be embedded directly into automation workflows (e.g. n8n),
+AI SDR/outbound systems, and customer-facing chatbots — not just a
+Claude Project for writing. That's the actual differentiator between an
+amateur automation and one that "understands the business": the same
+profile object that makes a ghostwriter sound authentic is what makes an
+SDR agent's objection-handling sound senior and a support chatbot's
+escalation judgment sound experienced.
 - **Brand voice** — a distinct document describing tone/vocabulary/style,
   separate from the ICP and business docs so it can be reused across every
   content type.
