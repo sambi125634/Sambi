@@ -67,6 +67,21 @@ fixed number of hours — this both filters for people who can actually
 deliver independently and removes the manager's need to supervise
 effort rather than results.
 
+**A dedicated CFO becomes necessary, not optional, once you're holding
+customer prepayments against variable/delayed delivery obligations.**
+Any business that collects payment upfront for work delivered over an
+uncertain future timeline (retainers, prepaid credits, subscriptions
+drawn down at the customer's pace) is effectively holding a liability,
+not pure revenue, the moment cash is collected. Tracking that accurately
+— what's been delivered vs. owed per account, real margin net of
+delivery cost, how much cash is safely available to reinvest — is a
+specific, technical skill that ad hoc tooling (a spreadsheet, a
+quickly-built internal app) reliably fails to sustain past a moderate
+number of active accounts. Treat "we don't actually know our real margin
+per account" as the trigger to hire a real CFO (not just a bookkeeper or
+a fractional generalist), specifically because the risk of that blind
+spot scales with revenue, not down.
+
 Rapid headcount growth funded by revenue growth tends to create management
 layers between the owner and both the frontline work and the customers,
 which makes it harder to catch underperforming teams or bad hires early,

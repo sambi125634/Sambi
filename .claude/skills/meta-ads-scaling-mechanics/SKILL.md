@@ -96,6 +96,29 @@ channel after a bad stretch, check for a specific, fixable cause:
   only numbers, since those are what determine whether the channel
   actually scales with new customers.
 
+## Account risk mitigation infrastructure
+
+Because a single ad account or Business Manager suspension can zero out
+100% of a business's paid acquisition overnight, treat multi-account
+redundancy as required infrastructure once ad spend is a serious revenue
+driver, not an edge case to handle after it happens:
+
+- Run multiple ad accounts and multiple Business Managers so a
+  suspension on one doesn't take down all active spend at once.
+- Use separate pixels and separate pages per account/campaign line where
+  practical, and be aware that shared identifiers (the same device,
+  network, or browser fingerprint used to manage multiple accounts) can
+  let a platform associate otherwise-separate accounts — if one gets
+  flagged, the associated ones can go down with it. Dedicating separate
+  devices and separate networks to separate account clusters reduces this
+  cross-contamination risk.
+- Where available, a paid safeguard exists in the market that routes a
+  suspension decision to human review before an account/ad is
+  auto-disabled, rather than a fully automated system enforcing it
+  instantly — worth evaluating for accounts carrying meaningful spend,
+  though provider availability changes over time and should be verified
+  before relying on it.
+
 ## Ad fatigue's second signature, and the page-vs-traffic diagnostic trap
 
 Ad fatigue doesn't always show up as worsening ad-level stats. It can

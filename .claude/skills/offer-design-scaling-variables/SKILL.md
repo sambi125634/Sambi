@@ -162,6 +162,28 @@ market — the smallest, most specialized producer sometimes outperforms
 the biggest mass-market player on quality/experience precisely because
 depth of mechanism beats scale of distribution for a specific buyer.
 
+**The commoditization ladder, for any business that sells data/leads/
+access to opportunity**: pay-per-click → pay-per-lead → pay-per-
+appointment → pay-per-*qualified* appointment → pay-per-customer/
+outcome. Each rung up means absorbing more of the buyer's risk (you now
+own responsibility for lead quality, show-up, qualification, etc.) in
+exchange for being much harder to commoditize/compete against and
+commanding a materially higher price for the same underlying traffic —
+most competitors stop at a low rung because the rungs above require
+real operational infrastructure (qualification logic, fulfillment
+tracking) to deliver reliably. Moving up this ladder is itself a form of
+unique-mechanism differentiation, not just a pricing choice.
+
+**Notice when your own downstream customers dramatically outperform your
+own use of the same underlying opportunity — it's a signal to vertically
+integrate.** If a business sells access to an opportunity (leads, a
+platform, a data feed) and observes that certain customers using that
+exact resource generate dramatically better outcomes than the business's
+own internal use of a similar opportunity, that gap is a direct signal
+to build an in-house version of that downstream business rather than
+continuing to only supply the input — the same underlying resource is
+worth more delivered as an outcome than sold as a component.
+
 ## 5. Sales-team fit
 
 Offer complexity and sales-team skill are inversely related, and this
@@ -202,6 +224,18 @@ and only a few historical customers were left to service?" Businesses
 that skip this can be forced into abrupt cuts (staff, service quality)
 exactly when a formerly-reliable offer suddenly stops converting and a
 long fulfillment tail is still owed.
+
+**Quantify average time-to-fulfill before claiming to know real
+profitability.** If a business takes payment upfront but delivers on a
+variable, customer-controlled timeline (they draw down their purchase at
+their own pace), it's structurally impossible to know true margin or how
+long cash is being fronted without tracking that average delivery
+timeline explicitly. Treat "we don't know how long it takes us to
+actually deliver what someone paid for" as a critical blind spot on par
+with not knowing cost-per-acquisition — it directly determines how much
+new spend can safely be committed without running out of cash while
+holding unfulfilled obligations, and it's a prerequisite for any
+"we're profitable" claim to be meaningful rather than a guess.
 
 **A written, explicit expectation-alignment document reduces refunds/
 chargebacks more reliably than better delivery alone.** Ambiguous terms
