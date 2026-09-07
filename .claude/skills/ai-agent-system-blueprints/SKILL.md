@@ -1,6 +1,6 @@
 ---
 name: ai-agent-system-blueprints
-description: Concrete architecture blueprints for four enterprise AI agent systems — ad creative intelligence, finance/board-report automation, sales outbound intelligence, and an enterprise AI-adoption dashboard — covering their inputs, pipeline steps, and output artifacts. Trigger when the user wants to design or scope an AI system for marketing creative testing, automated financial reporting, personalized sales outbound at scale, or tracking AI agent ROI/adoption across an organization. Also trigger on Polish phrasing like "system do generowania kreacji reklamowych AI", "automatyzacja raportów finansowych AI", "system do outboundu sprzedażowego AI", "dashboard adopcji AI w firmie".
+description: Concrete architecture blueprints for five enterprise AI agent systems — ad creative intelligence, finance/board-report automation, sales outbound intelligence, an enterprise AI-adoption dashboard, and product/solution-matching intelligence for complex catalogs — covering their inputs, pipeline steps, and output artifacts. Trigger when the user wants to design or scope an AI system for marketing creative testing, automated financial reporting, personalized sales outbound at scale, tracking AI agent ROI/adoption across an organization, or matching the right product/service from a large catalog to a specific enterprise prospect. Also trigger on Polish phrasing like "system do generowania kreacji reklamowych AI", "automatyzacja raportów finansowych AI", "system do outboundu sprzedażowego AI", "dashboard adopcji AI w firmie", "system dopasowania produktu do klienta enterprise".
 ---
 
 # AI agent system blueprints (four enterprise patterns)
@@ -149,11 +149,78 @@ diagnose adoption failure on idle ones. This is the correct way to measure
 AI ROI at enterprise scale: usage/adoption metrics on a dashboard, not
 anecdotes.
 
+## Blueprint 5 — Product/solution-matching intelligence (complex catalogs)
+
+**Problem it solves**: enterprise sellers with large, complex catalogs
+(100-200+ SKUs/services/API offerings) can't reliably match the right
+offering to a given prospect — even senior sales engineers guess. This is
+a different problem from Blueprint 3's outreach personalization: the hard
+part here isn't writing a compelling message, it's computing *which
+product fits this specific prospect's operational reality* at all.
+
+**Pipeline**:
+1. **Lead acquisition at low cost** — scrape via a pay-per-use actor
+   platform (e.g. an Apollo-scraping Apify actor) rather than a full CRM/
+   data-provider seat when volume and unit economics matter; cap batch
+   size (e.g. 200 records) so downstream processing stays stable.
+2. **Dedup/validate against CRM** before spending research budget on a
+   contact/company already known.
+3. **Research at the company level, not individual level**, for enterprise
+   sales with complex catalogs — surface-level individual personalization
+   ("saw your LinkedIn post") doesn't move sophisticated enterprise buyers
+   the way it does in Blueprint 3's outbound context; what matters is
+   operational fit: manufacturing capabilities, partnership structure,
+   funding stage, regulatory environment, technology stack, competitive
+   position.
+4. **Guided deep research, not a bare question** — a research prompt
+   (e.g. run through a research-capable model/API) needs explicit
+   guidance on *where* to look (investor relations pages, regulatory
+   filings, industry-specific publications) and *what dimensions* to
+   extract, not just "tell me if they're funded." The more sophisticated
+   the classification, the more the research strategy itself has to be
+   specified in the prompt.
+5. **Define classification dimensions collaboratively with the client** —
+   these are not generic; they encode that specific business's sales
+   logic (e.g. a biotech client's dimensions: primary/secondary molecular
+   modality, development stage, company type, manufacturing signals). This
+   step requires an actual conversation with the client's sales team
+   about how they currently reason about fit — it's the proprietary part
+   of the system, not a template.
+6. **Structure raw research into a consistent schema via a prompt chain**
+   — scrape data → enrich via deep research → a separate structuring pass
+   converts free-text research into the fixed JSON schema (the
+   classification dimensions from step 5) that the rest of the pipeline
+   and any dashboard/CRM view depends on.
+7. **Attach a confidence score to every classification** and set a
+   threshold below which a record is filtered out of outreach entirely —
+   never send derived recommendations at low confidence; this is a hard
+   gate, not a soft signal.
+8. **Generate the final product recommendation with rationale** — a
+   dedicated prompt combines the structured prospect profile with your
+   own product/service catalog context and outputs both the recommended
+   offering *and* the reasoning, so a sales rep deep into a long enterprise
+   sales cycle (calls 3, 4, 5+) has a durable justification to reference,
+   not just a black-box suggestion.
+9. **Route by operational metadata** — e.g. match territory/geography to
+   the correct account executive's signature and sending address; match
+   funding status to campaign aggressiveness. Small, mechanical rules, but
+   they're what makes the system fit the client's actual sales SOPs
+   instead of being a generic bolt-on.
+
+**Output**: for each prospect company, a structured profile (funding
+status, territory, business-fit dimensions), a confidence-scored product
+recommendation, and a written rationale — the kind of enterprise-sales
+research judgment that doesn't scale by hiring more sales engineers.
+Generalizes to any vertical with a large, non-obvious product/service
+catalog (SaaS with many API products, manufacturing, professional
+services), not just biotech.
+
 ## When to use which
 
 Pick the blueprint that matches the function under pressure (marketing
 creative velocity → Blueprint 1, finance reporting cycle time →
 Blueprint 2, outbound/SDR cost and inconsistency → Blueprint 3,
-"prove AI is working" from leadership → Blueprint 4). These compose: a
-company can run several at once per [[ai-ops-dependency-audit]]'s
+"prove AI is working" from leadership → Blueprint 4, "which of our many
+products/services should we even pitch this prospect" → Blueprint 5).
+These compose: a company can run several at once per [[ai-ops-dependency-audit]]'s
 per-function design principle.
