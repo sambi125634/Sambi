@@ -22,6 +22,46 @@ a sea of copy-pasted text pitches, a real face showing genuine command of
 the mechanism stands out immediately — same trust psychology that drives
 content marketing, applied one-to-one.
 
+**Loom pitch script structure** (proven on real Upwork applications):
+1. Open by referencing their specific post/ask verbatim — proves you
+   actually read it, not a templated response ("I saw your post about
+   [exact need]...").
+2. One line establishing relevant credibility (what you do full-time /
+   day-to-day with the exact tool they named).
+3. Live demo of your existing POC or a past relevant build — show it
+   running, not slides describing it.
+4. Explicitly map the demo's features back to what *they* asked for in
+   their post (their exact requirements — conversational flow, lead
+   capture, calendar booking, etc.) — don't leave the buyer to infer the
+   connection themselves.
+5. Close with genuine enthusiasm for the specific niche/tool and a soft,
+   low-friction CTA (a call to scope the work), not a hard sell.
+
+**Why Upwork-style venues beat cold outreach specifically**: a cold DM
+target may not yet know they have the problem, may not know the problem
+has a named solution category, and doesn't know you exist — that's three
+separate education gaps to close before a sale is even possible. A buyer
+posting "I need a Zapier/voice agent/chatbot workflow" has already closed
+all three gaps themselves; the only remaining question is "why you."
+That's what makes this channel high-conversion for a complete beginner
+with no case studies or audience yet.
+
+**Sequencing: revenue-generating activity before content.** Early on,
+direct outbound (Upwork/Fiverr-style applications) converts; posting
+content with no audience yet typically doesn't — treat early content
+(e.g. unscripted YouTube videos) as free rep-building practice for
+talking through a system on camera, not as a lead source, and prioritize
+outbound until you have real testimonials/reviews to build content around
+(feeds into the [[linkedin-inbound-lead-system]] content engine once you
+do).
+
+**It's fine to start absurdly small.** A first paid engagement at
+$15-25/hr or a flat $180-200 project is a legitimate, common starting
+point — the goal at that stage is the first client and the resulting
+feedback/data points (what objections came up, what closed it), not the
+rate. Rate and deal size are what Stage 2's positioning shift fixes once
+you have proof you can deliver.
+
 **Build one POC, pitch it everywhere.** Don't build a dozen different
 scattered demos. Build one strong proof-of-concept for a specific
 mechanism (e.g. one real vertical's chatbot/workflow) and send it to every
