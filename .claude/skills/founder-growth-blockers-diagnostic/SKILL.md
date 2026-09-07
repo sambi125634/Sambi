@@ -89,6 +89,61 @@ taxes and inflation, which both erode the naive version of this math
 significantly. The exercise itself, more than the specific numbers,
 tends to reset how "big" a current revenue target actually needs to be.
 
+## Reasons must be strong enough to justify the discomfort, not just the tactic understood
+
+Someone can fully understand and even agree that an action would help
+their business and still not do it, because *knowing* the tactic and
+*having a strong enough reason to endure the discomfort of doing it* are
+different things. Proven competence in one area (e.g. sales, content
+production) doesn't transfer to follow-through on a new, uncomfortable
+action if the underlying motivation for growth itself is vague ("I guess
+I'd like to make more money") rather than specific and personally
+compelling. When someone keeps stating the same correct tactical
+conclusion without acting on it, the more useful question is not "what
+should you do" (already answered) but "why do you actually want this
+badly enough to tolerate the discomfort" — and stress-testing whether
+that reason is real by checking whether it has already produced any
+behavior change.
+
+**Three concrete tests for exposing this gap**, useful in combination:
+
+1. **Timeline-vs-actual-work-time check**: if someone says a task will
+   take a long time (e.g. "two weeks") but, when you ask them to break it
+   into its actual components, each one takes minutes to a few hours,
+   the gap between the claimed timeline and the real work time is itself
+   diagnostic of avoidance, not a logistics constraint.
+2. **Cross-decision consistency check**: compare the risk tolerance a
+   person shows on two of their own real decisions — e.g. quickly
+   committing a given dollar amount to a low-upside personal luxury
+   purchase, versus resisting committing a similar or smaller amount to a
+   comparatively high-probability, self-controlled investment in their
+   own business. Making that inconsistency visible (using their own
+   actual choices, not a hypothetical) is more effective than arguing
+   abstractly that they "should" take more risk.
+3. **Third-party-financing test**: ask "if someone else fronted this
+   exact amount of capital for this bet and took a meaningful cut (e.g.
+   half) of the upside, would you take that deal?" If yes, but they won't
+   risk the same amount of their *own* money for 100% of the upside, the
+   blocker is demonstrably about self-confidence in their own ability to
+   execute, not the deal's actual economics — the math clearly favors
+   betting on themselves once stated this way.
+
+## Correcting risk-framing miscalibration between channels
+
+A founder who has only ever grown through a slow-compounding channel
+(e.g. organic content, with a sales cycle of months) will often
+unconsciously import that channel's long, patient timeline onto a
+fundamentally different, faster-feedback channel (e.g. paid
+acquisition, where cash risked can turn into cash returned within days).
+This makes the new channel feel far riskier than it structurally is,
+because the perceived risk model is borrowed from the wrong context. The
+correction: make the feedback-loop speed of the new channel explicit
+(how many days from spend to a clear directional signal) and compare it
+directly against the sunk time and opportunity cost already accepted in
+the slower channel — the "safe" channel is often the one carrying the
+larger hidden risk (stalling out with no alternative growth path), not
+the new one.
+
 ## Execution discipline once blockers are named
 
 Don't try to fix every identified gap simultaneously — see
