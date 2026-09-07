@@ -20,19 +20,49 @@ content driving traffic to it is wasted:
 - **Banner**: clean value prop in the right half only (never text under/
   behind the profile picture). Who you help + what you do, not corporate
   stock imagery.
-- **Headline formula**: `[what you do/delivery mechanism] + [social proof
-  number] + [who you help/ICP]`. e.g. "Scaled 47 e-commerce brands past $5M
-  with email automation." Every headline should answer: what do you do, who
-  do you help, how, and why should they believe you.
+- **Headline formula**: `[who you help/ICP] + [unique mechanism] + [tangible
+  result]`, outcome-focused not title-focused. e.g. "Scaled 47 e-commerce
+  brands past $5M with email automation" names the ICP-adjacent proof, the
+  mechanism (email automation), and the number. Never lead with a generic
+  job title ("CEO of XYZ") — the visitor needs to see themselves and their
+  problem in the first line, not your org chart position.
 - **Custom button** (via LinkedIn Sales Navigator settings): link straight
   to a booking page (Cal.com/Calendly) or a newsletter signup — remove
   friction between profile visit and next action.
-- **About section**: speak to the ICP's pain, not your résumé/credentials.
-  Same what/who/how/proof structure as the headline, expanded.
+- **About section as an emotional journey, not a feature list.** Structure:
+  specific current-pain (name the exact things they've likely already
+  tried and that failed — "you've probably worked with 3-4 agencies,
+  tried every lead source, downloaded countless 'revolutionary' systems")
+  → the deeper problem underneath that pain → the transformation/outcome
+  they actually want. Speak to *their* transformation throughout — a
+  profile that talks about your own credentials/tech-stack instead of the
+  reader's situation fails the "what's in it for me" test a visitor runs
+  in about 3 seconds.
+- **Experience entries and company/page description are part of the same
+  landing page** — don't leave them as generic auto-filled text. Each
+  experience entry should read as concrete, specific proof (what you
+  actually delivered, for whom, with what result), not a vague duties
+  list. A company page description should name the specific niche/problem
+  solved (not "we help businesses grow") and the mechanism, same as the
+  headline.
 - **Featured section**: curated, not a link dump. Pattern that works: (1)
   direct booking/consultation link, (2) your best-performing viral posts,
   (3) a free resource/template/PDF (gated for engagement), (4) a personal
   story/background post — people buy from people once they know you.
+
+**Building a profile-optimizer agent for this layer**: this is a strong
+candidate for its own small [[ai-context-engineering-profiles]]-style
+Claude project — a system prompt encoding the psychology above
+(psychological triggers, authority positioning, specificity, problem-based
+awareness) plus a knowledge-base file of real examples of top-converting
+headlines/about-sections/experience entries in your niche (your own past
+work, peers you trust, or anyone you can verify actually converts). Feed
+it a business/ICP/desired-outcome brief and it generates headline/about/
+experience/company-description variations in one pass — the same
+principle as Layers elsewhere in this skill: a bare "write me a LinkedIn
+headline" prompt produces generic output regardless of the model used;
+the knowledge base and explicit psychology instructions are what make the
+difference.
 
 ## Layer 2 — Content mix (traffic mechanism)
 
