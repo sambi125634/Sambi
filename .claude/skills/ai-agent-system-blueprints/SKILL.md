@@ -142,6 +142,19 @@ outreach gets ignored; SDR headcount is expensive and inconsistent.
    7 days), each pulling a *different* relevant case study from a vector
    database of your case studies/proof points, matched to the specific
    research gathered on that prospect — never a bare "just following up."
+6. **Dormant-conversation reactivation at scale** — for a business sitting
+   on a large historical archive of sales conversations (DMs, chat
+   threads, email/text history), mine that archive for prospects who
+   engaged seriously but didn't convert *because of a specific, named
+   objection*, then search a separate knowledge base of testimonials/case
+   studies for a match — someone who had that same objection and
+   succeeded anyway — and send a personalized reactivation message that
+   references the original conversation and pairs it with that matched
+   proof point. This turns a large dormant-lead archive most businesses
+   never revisit into a batch reactivation campaign, and is only
+   practical at scale with an agent doing the objection-extraction and
+   testimonial-matching, since manually re-reading thousands of past
+   conversations isn't feasible.
 6. **Multi-channel send + CRM sync** — email and LinkedIn, checked against
    CRM (Salesforce/HubSpot/GoHighLevel) to avoid duplicate/already-contacted
    leads, with an ICP-fit score used to prioritize send order.

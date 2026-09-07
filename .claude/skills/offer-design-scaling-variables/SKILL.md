@@ -98,6 +98,48 @@ buyer" — comparable premium goods categories often have a mass-market tier
 and a specialist/status tier priced 10-100x apart for a similar underlying
 outcome.
 
+**Renegotiate pricing/revenue-share terms based on current leverage, not
+the deal you happened to close first.** A rate or percentage agreed at
+the very first deal (often when you had the least proof and the least
+leverage) is not a permanent constant — as a track record accumulates,
+leverage shifts, and continuing to charge the original rate on every
+subsequent deal leaves large amounts of value uncaptured. Re-evaluate
+per deal: who needs this deal more, you or the counterparty? If a
+performance-based model is genuinely delivering an exceptional return
+multiple (materially better than typical investment returns), price the
+fee/share as what a genuine "money manager" turning capital into more
+capital would command, not what felt reasonable to ask for as a
+beginner.
+
+**A reluctance to charge in proportion to your own stated results is
+itself informative.** If a business claims a strong, repeatable return
+(e.g. "we turn $1 into $6") but structures pricing so a buyer only ever
+risks a small amount up front, that mismatch is worth confronting
+directly: either the claimed number isn't trusted enough internally to
+price against, or the sales process isn't making a buyer believe it
+enough to risk more capital. Fix the sales process to build that trust,
+rather than quietly pricing below what the stated results would justify.
+
+**Raising the upfront price can be the one domino that fixes several
+problems downstream at once** ("find the domino effect," not the whole
+list of possible improvements). Committing to a substantially higher
+upfront/setup fee, when the claimed downstream ROI genuinely supports
+it, can flip a business from consistently fronting cash and struggling
+for optimization data to breakeven-on-day-one with far more room to
+accumulate data and iterate. This is worth testing directly (raise the
+price and observe what happens on live sales calls) rather than
+incrementally stair-stepping toward it — a low-volume test segment
+carries little downside for finding this out fast.
+
+**Plan the older-customer upsell path before adding a higher-value new
+segment, not after.** Once new deals routinely come in at meaningfully
+higher value than the existing base, attention naturally drifts toward
+the newer, bigger accounts — existing customers who haven't been
+re-priced or upsold will get proportionally less focus by default. Build
+the mechanism to bring existing customers up to the new value level (a
+new upsell, a renegotiated rate) at the same time a higher-value segment
+is introduced, rather than discovering the neglect after it happens.
+
 **Thin-margin, high-volume acquisition models need a pre-built buffer
 before seasonal cost inflation hits.** A business surviving on a small
 per-customer profit margin against paid acquisition cost is fragile to
@@ -197,6 +239,15 @@ should be designed together, not independently:
 - A strong, well-trained sales team can carry a comparatively weaker or
   more complex offer, because they can close from a colder or more
   skeptical starting point.
+- **The referral-dependency trap**: when most new deals come from
+  referrals rather than a deliberate, scalable acquisition channel, a
+  business loses the ability to selectively decline poor-fit prospects,
+  since referrals *are* the primary source of deal flow — saying no to a
+  referred lead risks the flow itself. This shows up as disproportionate
+  churn concentrated specifically among referral-sourced customers. The
+  fix isn't a policy change, it's building enough independent deal flow
+  (a working paid channel, for instance) to have real leverage to say no
+  to bad-fit prospects regardless of where they came from.
 - Practical rule: your offer needs to be at least as strong as your sales
   team is weak. A great offer with a poor sales team can still convert; a
   weak offer with a poor sales team won't, no matter which channel or

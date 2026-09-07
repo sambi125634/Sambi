@@ -41,6 +41,18 @@ doing much more revenue at breakeven.
 
 ## Headcount is a liability to minimize, not a trophy to grow
 
+**Default to not hiring unless a role is 100% trackable as paying for
+itself — flip the default from "hire when a problem appears."** Two
+opposite decision defaults produce very different organizations at the
+same revenue level: reflexively hiring a new payroll position every time
+a gap or annoyance surfaces (the common default), versus treating "can I
+solve this with existing staff, a tool, or an AI system first" as the
+mandatory first question, and hiring only when the answer is genuinely
+no and the new role's revenue contribution can be tracked. The first
+default produces a much larger, more expensive, harder-to-manage
+organization for the same output; the second keeps headcount growth
+tightly coupled to demonstrated returns.
+
 **Question whether a role needs to exist at all before optimizing it.**
 A well-known engineering discipline for controlling complexity is to
 challenge the necessity of a component *before* trying to improve it —
