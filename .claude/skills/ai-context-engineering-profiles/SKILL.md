@@ -172,7 +172,16 @@ curated, not generic:
    Export only the fields you actually need (e.g. post text, not internal
    IDs/metadata) — dumping raw scraped JSON wastes context and increases
    hallucination risk; condensed, relevant data performs better than bulk
-   data.
+   data. A purpose-built scraper-plus-analyzer tool (e.g. an MCP connector
+   that pulls a Twitter/X account's or a website's recent content and
+   returns an already-structured JSON profile — tone, hooks, posting
+   patterns, top-performing content, audience/ICP inferred from
+   engagement, and for a website its brand DNA: colors, fonts, layout,
+   content hierarchy) collapses the scrape→analyze→structure steps into
+   one call, and is worth using over raw scraping when available — the
+   website-brand-DNA variant is detailed enough to hand directly to a
+   website/design builder for a redesign brief, not just for content
+   style-matching.
 2. **Let the model digest before applying.** Two-step, not one-shot: first
    ask it to read/understand the new source document on its own; only in a
    follow-up turn ask it to apply those frameworks to a specific piece of
