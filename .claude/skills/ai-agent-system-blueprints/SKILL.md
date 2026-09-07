@@ -48,6 +48,46 @@ aim for full 30-40s ads — current image/video models are strongest at
 5-8s B-roll/A-roll product clips; generate a library of these short clips
 and let a human editor assemble the final cut.
 
+**Creative format tier list (which formats to prioritize generating)**:
+rank formats by whether they can *absorb serious ad spend at scale while
+staying stable*, not by small-budget ROAS alone — some formats look fine
+at a trivial budget but fall apart the moment real spend goes behind
+them.
+
+- **Consistently scale well**: a talking-head style short video (under
+  ~2 minutes, ideally 30-60s) and a "B-roll with on-screen text" style
+  video (short cuts of background footage with a scrolling/animated text
+  overlay carrying the message) are both easy to mass-produce and
+  reliably absorb spend — prioritize being able to churn these out in
+  volume.
+- **Also strong, more effort to do well**: static images (best paired
+  with a funnel that doesn't require much pre-education, e.g. driving to
+  an opt-in rather than straight to a long sales video), carousels
+  (testimonial carousels, feature carousels, or a thread-style multi-slide
+  format), and AI-generated creative (video/image generation tools) —
+  strong when done well, but quality varies a lot with how skilled the
+  operator is at directing the generation.
+- **Weaker, or narrower use cases**: long-form video ads (a full sales
+  video or podcast clip run as-is) tend to underperform *unless*
+  significantly cut down (2-5 minutes) or edited to remove filler and
+  stack the most value-dense/insight-dense moments back-to-back — the
+  same "aha-moment density" principle that makes organic content work
+  applies directly to ad-length long-form; paid actor/creator "UGC"-style
+  testimonial video for a complex high-ticket offer often reads as
+  inauthentic and underperforms cheaper AI-generated alternatives unless
+  the performer is genuinely convincing; meme-style ads can drive high
+  click volume but mostly curiosity clicks rather than buying intent;
+  plain retargeting ads to warm/engaged audiences post strong ROAS but
+  can't absorb much total spend, so they're a nice-to-have, not a
+  scaling lever.
+- **General rule**: since only a small single-digit percentage of any
+  batch of tested creatives become true scaled winners (see
+  [[meta-ads-scaling-mechanics]]'s realistic win-rate section), favor
+  formats that are cheap and fast to mass-produce over formats that are
+  high-effort per unit — a format that's merely "good" but can be
+  produced in volume will surface more real winners than a "great" format
+  you can only make a handful of.
+
 ## Blueprint 2 — Finance / board-report automation
 
 **Problem it solves**: finance teams spend tens of hours/month manually
