@@ -36,6 +36,20 @@ economics get worse as you chase scale outside the in-market layer.
   to hand to an AI research agent (aggregate qualification criteria,
   estimate population size, come back with a defensible number) rather
   than eyeballing it.
+- **Reframing who inside a niche you sell to can expand TAM without
+  changing what you teach/deliver.** If a business is selling training or
+  a service to individual practitioners in a niche (e.g. individual sales
+  reps, individual fitness trainers), the same underlying methodology
+  often sells just as well one level up — to the *organizations* that
+  employ those practitioners. Organizations have materially larger
+  budgets, can justify the purchase faster (a productivity or revenue
+  case is easier to make with company money than a rep convincing
+  themselves to spend personal income), and the per-deal size scales with
+  headcount (pricing per seat/employee) rather than staying capped at one
+  individual's willingness/ability to pay. This is a near-zero-cost pivot
+  — the core product often doesn't need to change, only who the marketing
+  speaks to — and is worth testing *in addition to*, not instead of, the
+  existing individual-buyer channel.
 
 ## 2. Positioning
 
@@ -60,6 +74,20 @@ actual hard delivery cost plus margin, or (b) a price set deliberately
 high specifically to signal "this is for a different, wealthier tier of
 buyer" — comparable premium goods categories often have a mass-market tier
 and a specialist/status tier priced 10-100x apart for a similar underlying
+outcome.
+
+**Payment structure changes the buyer's felt commitment, not just your
+cash flow.** A buyer who pays the full price upfront has more on the line
+psychologically and tends to engage more seriously with a product than
+one who pays a small recurring amount they could cancel at any time — so
+defaulting every buyer to an installment plan "to make it an easier yes"
+can quietly lower average engagement and outcomes, which then shows up as
+weaker results/testimonials and can undercut the very case for charging a
+premium price. Where a genuine affordability constraint exists (a
+buyer segment that's plausibly cash-constrained), it's worth explicitly
+solving that with financing options rather than defaulting to lowering
+the effective price via a low monthly plan — the two solve different
+problems.
 function, aimed at entirely different buyers.
 
 ## 4. Unique mechanism

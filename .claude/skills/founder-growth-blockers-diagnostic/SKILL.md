@@ -1,0 +1,69 @@
+---
+name: founder-growth-blockers-diagnostic
+description: Diagnose when a founder's stated business reasons for not scaling (channel choice, pricing, hiring) are actually downstream of an unaddressed fear or an unequal-skill anchoring bias, and reframe that fear as a signal of what to strengthen rather than a reason to stay small. Trigger when a founder gives inconsistent or shifting justifications for avoiding a growth lever (paid ads, more content volume, raising prices, delegating fulfillment), when growth targets seem set unusually low relative to the market opportunity, or when someone says they're "not sure" why they haven't tried an obvious next step. Also trigger on Polish phrasing like "boję się skalować bo zepsuję markę", "dlaczego sam siebie ograniczam w biznesie", "opór przed podniesieniem cen albo delegowaniem".
+---
+
+# Diagnosing founder-side growth blockers
+
+## Fear as a diagnostic signal, not a stop sign
+
+When a founder avoids an obviously-available growth lever (running paid
+ads, posting more frequently, charging full price upfront, delegating a
+part of fulfillment) and can't give a clear, specific reason why, the
+underlying cause is very often an unaddressed fear about a real weak
+point — a fear that whatever is currently working could break under more
+volume or scrutiny. The reframe that unlocks action: fear here is
+information about *what part of the business needs to be strengthened*,
+not a legitimate reason to avoid the action indefinitely. The corrective
+question isn't "should I do this scary thing," it's "what would have to
+be true (what would I need to add, fix, or hire) for this to no longer be
+scary" — then go build that.
+
+## The anchoring-bias trap between unequal skills
+
+A founder who is excellent at one core skill (e.g. selling/closing) but
+much less experienced at another skill the business now needs (e.g.
+marketing, content volume, or people-management for delegated
+fulfillment) will often unconsciously judge their competence in the new
+area against their confidence in the skill they're already great at —
+and conclude they're "not ready," when really they simply haven't
+developed the second skill yet and are comparing it unfairly to a skill
+they've had years to master. The fix isn't more caution, it's explicitly
+naming which skill is underdeveloped and either building it deliberately
+or hiring for it — not slow-walking growth while implicitly waiting to
+feel as confident in the new area as in the old one.
+
+## Watch for shifting or vague justifications
+
+A concrete tell that the real blocker is unaddressed fear rather than
+sound business judgment: the stated reason for avoiding a lever changes
+or gets vague under light questioning ("not sure," "just haven't gotten
+to it," a justification that doesn't hold up against the business's own
+numbers). Rationalizations like "we're already growing steadily without
+this, so we don't need it yet" can be true and still be a justification
+built backward from the fear rather than a real strategic call — test
+this by asking what specifically would have to go wrong for the fear to
+be justified, and whether that failure mode has actually been protected
+against, or just avoided by not scaling.
+
+## Decision-making context matters
+
+Big decisions made from a compromised state (acute stress, exhaustion, a
+recent setback, or any context that's temporary but feels permanent in
+the moment) are less reliable than the same decision made from a stable
+context. When a founder is about to make a consequential call while
+visibly in a stressed or reactive state, it's worth explicitly naming
+that context and, where the decision isn't urgent, deferring it until the
+context has changed — the underlying facts rarely change as fast as the
+emotional state does.
+
+## Execution discipline once blockers are named
+
+Don't try to fix every identified gap simultaneously — see
+[[paid-funnel-testing-benchmarks]]'s "run one new growth bet at a time"
+principle. List every lever the diagnosis surfaced, then commit to
+executing the one with the highest confidence first, all the way through
+a full commitment window, before adding the next. Trying to fix pricing,
+hiring, content cadence, and channel mix all in the same month compounds
+difficulty and makes it impossible to tell which change produced which
+result.
