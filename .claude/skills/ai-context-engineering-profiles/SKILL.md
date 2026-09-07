@@ -109,6 +109,38 @@ curated, not generic:
   relevant subset per task rather than always loading everything.
 - Prefer a model with strong instruction-following and extended/deliberate
   reasoning for this kind of synthesis work over a bare fast-mode model.
+- Trigger-word activation: name the profile files so their filenames/topics
+  match the words you'd naturally use when asking ("LinkedIn thought
+  leadership", "Twitter lead magnet") — a well-organized project activates
+  only the relevant subset of files per request instead of dumping
+  everything into context every time.
+- **Bootstrapping the profile set the first time**: rather than writing
+  every context document from scratch, use a "context profile generator"
+  — a system-instructions document plus a couple of example/template files
+  — as its own small Claude Project. Load that generator project, then
+  have a conversation dumping everything you know about your business,
+  ICP, and past posts into it; it interviews/organizes that into the
+  actual ICP/business/product-strategy/brand-voice documents you then move
+  into your real content project's knowledge base. This turns "write four
+  structured profile documents" from a blank-page problem into a
+  conversation.
+- **Only feed it content that already converted or that you explicitly
+  want replicated.** Uploading mediocre or non-converting past posts as
+  "brand voice" examples trains the system to reproduce mediocrity — curate
+  the training examples as carefully as you'd curate a portfolio.
+- **Understand the underlying model before trying to push it further.**
+  Treating the LLM as a black box and stacking prompt templates you don't
+  understand caps how far you can take this — knowing roughly how the
+  model actually uses context (why organization, file separation, and
+  curation matter mechanically) is what lets you debug or extend the setup
+  yourself instead of cargo-culting someone else's prompts.
+- **Expected result magnitude, to calibrate expectations**: one previously
+  dormant LinkedIn account (25K existing followers, 1-2 likes/post) saw
+  roughly a 30x (3,000%) engagement increase within a week of deploying a
+  properly-trained context system (business intelligence + platform
+  patterns + identity programming, per Layers 1-3 above) — a sign this is
+  a step-change technique, not a marginal prompting tweak, when the
+  profile documents are done properly.
 - This complements [[ai-ops-dependency-audit]] and
   [[ai-agent-system-blueprints]] — those are about *what* systems to build
   in a business; this is the technique for making any one of those AI
