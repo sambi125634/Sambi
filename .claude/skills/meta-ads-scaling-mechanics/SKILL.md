@@ -96,6 +96,42 @@ channel after a bad stretch, check for a specific, fixable cause:
   only numbers, since those are what determine whether the channel
   actually scales with new customers.
 
+## Diagnostic discipline and account hygiene
+
+- **Search for evidence the current approach *could* work before searching
+  for evidence it can't.** When troubleshooting weak ad performance,
+  actively looking for external explanations ("costs are just up
+  everywhere," "everyone's struggling right now") forecloses the
+  creativity needed to actually fix the account — treating full
+  ownership of the outcome as the default stance, rather than looking to
+  externalize blame first, is what keeps the diagnostic process
+  productive.
+- **Reputation measurably drags down paid performance.** A poor public
+  reputation (bad reviews, visible complaints on forums/review sites)
+  will suppress show rates and close rates on paid traffic even when
+  every ad-account-level statistic looks fine — don't rule out
+  reputation as a cause just because it's outside the ads manager.
+- **Match testing volume to your actual budget, not to what much larger
+  spenders do.** On a modest daily budget, one broad ad set with a
+  small batch of your best creatives (well under 20) is appropriate;
+  copying the creative-testing volume of accounts spending tens of
+  thousands a day onto a much smaller budget just spreads the same
+  dollars too thin to produce a real signal on any single creative.
+- **A past failed scaling attempt may have been confounded by timing, not
+  spend.** Before concluding "we tried to scale and it didn't work" as a
+  permanent verdict, check whether the attempt coincided with a
+  predictable seasonal dip (holidays, a slow buying period) — attributing
+  a seasonally-caused dip to the scaling attempt itself can freeze a
+  business out of ever retrying for a very long time.
+- **Simplify campaign structure as it accumulates cruft over time.** Ad
+  accounts that grow into dozens of overlapping campaigns targeting
+  substantially the same audience (via layers of past "testing" and
+  "scaling" campaigns never cleaned up) tend to degrade in performance
+  as complexity increases — periodically consolidating down to a small
+  number of clean, non-overlapping campaigns can meaningfully lower cost
+  and raise ROAS purely from the reduction in internal competition and
+  fragmented signal, independent of any creative or targeting change.
+
 ## Account risk mitigation infrastructure
 
 Because a single ad account or Business Manager suspension can zero out
