@@ -73,3 +73,18 @@ data from an underfunded test.
 - Once a funnel is profitable and stable, that's the point to diversify
   into a second funnel type or audience — not before, and not by
   replacing the working one, but by adding alongside it.
+- **A single funnel's efficiency ceiling tends to fall as absolute scale
+  rises**, even without any obvious external cause — the same underlying
+  audience pool simply gets more expensive to keep drawing from at higher
+  volumes (see [[meta-ads-scaling-mechanics]]'s finite-vs-replenishing
+  messaging-pocket model for why). At meaningful scale, treat rising
+  cost-per-result on a previously-efficient funnel as an expected signal
+  to add a genuinely different funnel structure or audience source, not
+  just evidence that the current funnel needs fixing.
+- **Leaving a working funnel untouched is sometimes correct, not
+  negligent.** If a funnel or ad asset is still converting acceptably,
+  it's fine to deprioritize testing/optimizing it further while attention
+  goes elsewhere (new channels, new offers) — a funnel doesn't need
+  constant iteration to keep producing results, and "we haven't touched
+  this in months and it still works" is a legitimate state, not
+  automatically a missed opportunity.

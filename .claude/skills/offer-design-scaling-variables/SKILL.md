@@ -124,6 +124,14 @@ should be designed together, not independently:
   team is weak. A great offer with a poor sales team can still convert; a
   weak offer with a poor sales team won't, no matter which channel or
   funnel format you swap in.
+- **Reduce friction in the first minutes/hour after payment.** A buyer's
+  doubt/regret risk is highest immediately after purchase, so build an
+  explicit, fast, low-friction post-sale sequence (collect payment →
+  send the agreement → book the onboarding call → collect any onboarding
+  info → deliver a welcome/orientation touch) as a defined step-by-step
+  workflow your closers follow every time, rather than an ad hoc process
+  — this measurably reduces refund/chargeback risk by locking in
+  commitment while it's highest.
 
 ## 6. Fulfillment architecture — design for the worst case, not the best
 
@@ -160,6 +168,22 @@ as the core offer, not bolted on afterward:
   at the moment of the first purchase — the same logic as a fast-food
   combo upsell offered automatically at the point of the initial order,
   not as a separate later pitch.
+- **Net Revenue Retention (NRR) as the metric that matters more than churn
+  in isolation.** NRR = (starting recurring revenue + expansion/upsell
+  revenue − churned revenue) ÷ starting recurring revenue, expressed as a
+  percentage. Above 100% means upsells/expansion outweigh churn and the
+  existing customer base is growing revenue on its own even with zero new
+  acquisition; below 100% means the business is structurally shrinking
+  without a constant supply of new customers to backfill it. A wide
+  enough range of upsell/cross-sell products (so there's always something
+  new and relevant to offer an existing customer) is what pushes NRR
+  toward or above 100% — this is the same underlying lever as this
+  section's cadence/bundle points, just with a metric attached. Practical
+  implication for measuring paid acquisition: front-end ROAS on a cohort
+  of customers understates true return once their later upsell/expansion
+  revenue is included — evaluate acquisition channels over a longer
+  revenue horizon (including back-end monetization of the customer base
+  they built), not just the immediate front-end return.
 
 ## 8. Owner/founder dependency as a hard scaling ceiling
 
@@ -182,6 +206,16 @@ there's only so much of the founder's calendar. Two structural fixes:
   [[ai-ops-dependency-audit]] — the fix there (map what only the founder
   can do vs. what can run without them) applies directly to offer design,
   not just internal operations.
+- **Three roles that typically need to exist for an expertise-driven
+  offer (coaching/consulting/education) to scale past a founder-led
+  stage**: someone who *is* the credibility/subject-matter expertise (the
+  face/brand), someone who runs marketing and demand generation, and
+  someone who runs internal operations/fulfillment. One person can wear
+  more than one hat early on, but as revenue scales, trying to keep all
+  three permanently on one person is a common, specific version of the
+  owner-dependency ceiling above — identify which of the three roles is
+  currently unfilled or founder-only, and hire or delegate that one
+  first.
 
 ## How to use this
 
