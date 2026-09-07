@@ -103,8 +103,20 @@ outreach gets ignored; SDR headcount is expensive and inconsistent.
    database of your case studies/proof points, matched to the specific
    research gathered on that prospect — never a bare "just following up."
 6. **Multi-channel send + CRM sync** — email and LinkedIn, checked against
-   CRM (Salesforce/HubSpot) to avoid duplicate/already-contacted leads,
-   with an ICP-fit score used to prioritize send order.
+   CRM (Salesforce/HubSpot/GoHighLevel) to avoid duplicate/already-contacted
+   leads, with an ICP-fit score used to prioritize send order.
+7. **Email verification before send** — a scraped/enriched email is not
+   guaranteed live: someone who changed jobs often still shows an email
+   tied to their *previous* employer's domain, which will bounce and can
+   also degrade your sending domain's deliverability/reputation score.
+   Run every address through a verification tool (e.g. Anymail Finder)
+   before it enters a send queue, not after bounces show up in analytics.
+
+Typical tool stack for this pipeline: Explorium/Apollo/LinkedIn Sales
+Navigator for company+contact data, Perplexity for market intelligence/
+recent news, Apify for LinkedIn profile/activity scraping, an email
+verifier for deliverability, and a vector database over your own case
+studies/proof points for the follow-up personalization in step 5.
 7. **Reply handling** — replies are logged to CRM automatically and routed
    to a human for anything requiring judgment.
 
