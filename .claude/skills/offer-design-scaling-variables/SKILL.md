@@ -63,6 +63,28 @@ The exercise: describe your actual target buyer's existing purchasing
 experience in adjacent categories, then make sure your offer doesn't
 undershoot that expectation.
 
+**Validate the vocabulary your positioning relies on before building
+around it.** If a core piece of your offer's identity is a specific role
+or category name (e.g. naming a role you place or train people into),
+check with actual market research whether your target buyer recognizes
+and uses that exact term — not just whether they'd want the underlying
+outcome. If the term isn't commonly used or understood yet, either lead
+with the outcome in plain language and define the term briefly, or pick
+a funnel format that has room to establish the vocabulary before asking
+for a purchase (e.g. a webinar, which can spend time on definitions)
+rather than a fast, low-context funnel that assumes the term is already
+understood.
+
+**Check whether a competitor's proven offer type still fits the current
+market narrative before copying it.** An offer model that worked
+extremely well for someone else was often a fit for a specific,
+time-bound market condition (a disruption that left a gap, a widely-felt
+unmet need at that moment) — not a timeless template. Before adopting a
+structurally similar offer, explicitly ask what conditions made the
+original successful and whether those same conditions (or an analogous
+version of them) exist in your market right now, rather than assuming a
+model that worked elsewhere or previously will transplant directly.
+
 ## 3. Price and unit economics
 
 Price is not just a cost-recovery number — it's a perceptual-value signal.
@@ -75,6 +97,17 @@ high specifically to signal "this is for a different, wealthier tier of
 buyer" — comparable premium goods categories often have a mass-market tier
 and a specialist/status tier priced 10-100x apart for a similar underlying
 outcome.
+
+**Don't bundle in a component the buyer may not be able to use — it can
+lower perceived value, not raise it.** If a package's headline pitch
+includes a benefit conditional on something the buyer might not have
+(e.g. "for you and your team" when they may not have a team), a buyer
+without that thing can feel they're paying for value they can't access,
+which makes the price feel less justified rather than more generous.
+Lead the primary offer with the component every buyer can use, and
+present conditional extras as a secondary bonus mentioned after the core
+pitch ("if you happen to have X, you also get Y") rather than folding
+them into the headline value proposition.
 
 **Payment structure changes the buyer's felt commitment, not just your
 cash flow.** A buyer who pays the full price upfront has more on the line

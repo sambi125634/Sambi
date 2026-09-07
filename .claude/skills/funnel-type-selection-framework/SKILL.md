@@ -56,6 +56,26 @@ Call funnels are a strong fit for daily-lead-flow scaling (see the
 two-lever model in [[paid-funnel-testing-benchmarks]]) because, unlike a
 lump-sum webinar, they generate bookable opportunities every day.
 
+**VSL structure and format tips for call funnels**: open the video with
+a compressed, roughly one-minute summary of the entire pitch, then spend
+the remainder of the video expanding and elaborating on that same
+summary — rather than building up to the point slowly, since many
+viewers won't watch to the end. Prefer a filmed video VSL over a static
+image driving to the same page: image-based ads to a VSL page can post a
+lower cost-per-click/CPM, but the leads that come through video ads tend
+to arrive meaningfully more educated, which matters more than the
+front-end cost difference once you account for show/close rate downstream.
+
+**A cheap, fast diagnostic test before committing to a bigger funnel
+decision**: run a call funnel at a small, fixed daily budget for about a
+week. Even a rough, assumed cost-per-call estimate is enough to project
+roughly how many calls that budget should generate over the week — enough
+volume to get real signal on show rate and sales-team feedback, and to
+tell within days whether the core issue is lead quality/education (an
+offer or messaging problem) rather than needing to commit to a larger,
+harder-to-reverse funnel choice (like a full webinar buildout) on
+theory alone.
+
 **Low-ticket-to-high-ticket** — adds sales-cycle length by design, and
 that's fine only if the economics of the low-ticket step can tolerate it.
 Two key techniques: (1) build the low-ticket offer by extracting and
