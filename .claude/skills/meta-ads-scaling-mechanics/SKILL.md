@@ -96,6 +96,28 @@ channel after a bad stretch, check for a specific, fixable cause:
   only numbers, since those are what determine whether the channel
   actually scales with new customers.
 
+## Ad fatigue's second signature, and the page-vs-traffic diagnostic trap
+
+Ad fatigue doesn't always show up as worsening ad-level stats. It can
+instead show up as **the same CPM and click-through rate, but a landing
+page that suddenly converts much worse** — a strong sign the audience
+pool for that specific creative has been exhausted and is delivering
+progressively less-interested viewers even though the delivery metrics
+look unchanged. The fix in that case is refreshing the creative
+execution (new visuals/edit, even with the same core messaging), not
+touching the landing page — a page that converted well recently and
+hasn't been changed is unlikely to have suddenly broken on its own.
+
+More generally: **page conversion rate and traffic quality are
+correlated, not independent — don't assume a low page conversion rate is
+a page problem before checking traffic quality.** Sending lower-intent
+or lower-educated traffic to an unchanged page will make that page look
+broken even though nothing on it changed; conversely, improving the
+messaging/targeting on the ad side to attract better-fit visitors can fix
+an apparently broken page without touching a single word on it. Diagnose
+in this order: confirm traffic quality/consistency first, then treat the
+page's conversion rate as a real signal only once that's controlled for.
+
 ## Pixel conditioning: what it actually does, and how it drifts
 
 - The pixel's held data window is roughly 180 days, but weighting is
