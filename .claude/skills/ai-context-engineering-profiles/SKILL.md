@@ -88,6 +88,23 @@ example posts — formatting cues get missed by the model unless you name
 them explicitly. Set hard constraints (e.g. "max 300 words") in the
 prompt itself.
 
+**Never describe voice with adjectives — show examples instead.**
+"Be casual, be direct, be punchy" is close to useless as an instruction:
+five different writers (or five different model runs) execute "direct"
+five different ways. Skip the adjective entirely and instead hand the
+model a small curated library of your own best posts *segmented by type*
+(e.g. a spreadsheet/doc column per type: lead-magnet posts, long
+value/educational posts, short punchy posts, tweets), exported as
+Markdown so line breaks, dividers, and structure survive intact — Markdown
+specifically (not plain text) is what lets the model actually parse your
+formatting rather than guess at it. Ask it to reverse-engineer sentence
+rhythm, structure, and formatting choices from those examples rather than
+be told what your voice is like in adjectives. The mental model: **you're
+not asking the AI to be creative, you're asking it to be a pattern-
+matching machine that fills a proven structure with fresh input** —
+structure first, content second, same as how a human ghostwriter studies
+a client's back catalog before writing a single new word.
+
 ## Layer 3 — Identity programming
 
 Don't just describe a role ("you are a copywriter"). Give the model an
