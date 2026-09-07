@@ -144,6 +144,34 @@ the slower channel — the "safe" channel is often the one carrying the
 larger hidden risk (stalling out with no alternative growth path), not
 the new one.
 
+## Morale management as an active practice, not a byproduct of results
+
+Staying psychologically composed and energized during a stretch of flat
+or bad results is a skill to actively manage, not something that just
+follows automatically once results improve. Treating morale as
+downstream of results only (wait to feel good until the numbers are
+good) creates a trap: bad results lower morale, lowered morale reduces
+the quality of execution, which prolongs the bad results. Deliberately
+investing in whatever keeps composure and energy up during a visible
+slump — external accountability, coaching, or simply a standing practice
+reviewed on a schedule — is worth treating as infrastructure, not an
+afterthought, precisely because a person's decision-making and execution
+quality measurably degrade when morale is left to track results passively.
+
+**Set an explicit tolerance threshold for "going sideways."** Decide in
+advance how long flat/stagnant performance is acceptable before it
+mandates a forced set of new actions (a new offer, a new channel, a
+change in cadence) — without a pre-set threshold, it's easy to
+retroactively justify month after month of stagnation as "still working
+on it," and the threshold creeps later each time. A concrete marker: if
+a business has been flat for meaningfully longer than about two months,
+treat that as the trigger to escalate — audit what's actually being
+tried against what merely feels like effort, and add a genuinely new
+lever rather than repeating the same actions expecting a different
+result. This pairs with [[paid-funnel-testing-benchmarks]]'s scaling
+trigger concept — both are pre-committed if/then rules that remove the
+decision from an in-the-moment mood.
+
 ## Execution discipline once blockers are named
 
 Don't try to fix every identified gap simultaneously — see

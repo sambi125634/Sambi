@@ -204,6 +204,23 @@ identity.**
   to get dramatically more out of AI than teams issued the same tools with
   no shared context.
 
+## Service delivery as a byproduct training-data source
+
+If a business already delivers a service through recorded/transcribable
+interactions (1:1 calls, group coaching sessions, community Q&A, DMs,
+internal talks), that delivery work can double as the raw training
+material for a second, more scalable AI product — capturing what the
+expert actually says in real situations at much higher fidelity than a
+person could summarize after the fact. Structure this deliberately:
+route every recorded interaction into a persistent knowledge base as a
+matter of course, rather than treating each session as a one-off. Over
+time this produces two independent revenue lines from largely the same
+underlying work: the original high-touch service, and a lower-priced,
+higher-volume AI product trained on the accumulated delivery data — the
+second product's differentiation comes precisely from that volume and
+specificity of real-world training data, which is very hard for a
+competitor to replicate without years of the same delivery history.
+
 ## Layer 4 — Curated external knowledge base (AI as advisor)
 
 The same context-engineered setup can act as a personal or team business

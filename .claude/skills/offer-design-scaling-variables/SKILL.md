@@ -273,6 +273,15 @@ there's only so much of the founder's calendar. Two structural fixes:
   [[ai-ops-dependency-audit]] — the fix there (map what only the founder
   can do vs. what can run without them) applies directly to offer design,
   not just internal operations.
+- **Being at capacity is leverage to raise price, not a reason to stop
+  selling.** Counterintuitively, approaching a personal-delivery capacity
+  ceiling is a good moment to raise the price of the founder-delivered
+  tier rather than simply closing it off — the additional margin captured
+  from existing near-capacity demand is what funds hiring or building the
+  additional capacity that raises the ceiling itself. Treat "I'm almost
+  maxed out" as a pricing signal first, before treating it as a hard
+  stop.
+  not just internal operations.
 - **Three roles that typically need to exist for an expertise-driven
   offer (coaching/consulting/education) to scale past a founder-led
   stage**: someone who *is* the credibility/subject-matter expertise (the
