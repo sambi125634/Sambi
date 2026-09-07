@@ -42,6 +42,60 @@ until you throttle back down). A "winning" ad that suddenly stops
 performing at a higher budget is often not broken — it's being extracted
 faster than its pocket replenishes.
 
+## The scaling trough (distinct from the scale ceiling)
+
+The scale ceiling (above) is about a *specific* messaging/funnel
+combination running out of its finite in-market pool. The **scaling
+trough** is a different phenomenon: when you increase spend on something
+that is already genuinely working, ROAS/cost-per-result will often dip
+*temporarily* before settling at a new, real steady state — and that new
+steady state can still be very profitable in absolute dollar terms even
+though the ratio looks worse than the small-budget number.
+
+- **Low-spend ROAS is not your real ROAS.** A campaign running at a small
+  daily budget is often reporting an inflated, non-representative ratio.
+  Increasing spend reveals the *true* performance, which is frequently
+  lower as a ratio — that's expected, not a sign something broke.
+- **The floor, not the ratio, is what to chase.** A lower ROAS at much
+  higher spend can produce far more absolute profit than a higher ROAS at
+  a trivial spend level — do the dollar math (spend × (ROAS−1)) rather
+  than optimizing the ratio in isolation.
+- **The psychological trap**: a founder who scales spend, hits the trough,
+  and retreats back to the old lower spend level to "protect" the ratio
+  will often never try again — one bad-feeling stretch turns into a
+  permanent story about why that channel "doesn't scale," even after
+  whatever actually caused the dip (see the diagnostic below) has long
+  been fixed. This is the same self-narrative-vs-reality gap covered in
+  [[founder-growth-blockers-diagnostic]].
+- **The fix: set an explicit scaling trigger in advance.** Decide, before
+  scaling, what specific condition ("if we've resolved X, we will
+  re-attempt Y") should trigger trying again — and act on it
+  immediately once true, rather than letting an unresolved narrative
+  quietly sit for months after the underlying issue is actually gone.
+
+## Diagnosing a real cause of a stat drop (vs. a self-protective story)
+
+Before concluding "the algorithm broke" or permanently abandoning a
+channel after a bad stretch, check for a specific, fixable cause:
+
+- **Bot/junk-traffic signature**: an unusually low CPM combined with an
+  unusually high link click-through rate (e.g. jumping from a healthy
+  ~2% baseline into the high single digits or teens) on a specific
+  placement is a common signature of low-quality or bot traffic rather
+  than a real audience shift.
+- **Isolate by placement.** Break down spend and results by individual ad
+  placement (not just campaign/ad-set level) to find whether one specific
+  placement is the source of a stat anomaly — broad "advantage+
+  placements" settings can include lower-quality inventory (e.g. certain
+  video/reels placements or audience-network-style distribution) that a
+  more restricted placement set would have avoided.
+- **Separate warm/existing-customer performance from cold acquisition
+  performance in reporting.** A blended ROAS/CPL that includes warm-list
+  or existing-customer conversions will look better than true cold-
+  audience acquisition performance — report and optimize around the cold-
+  only numbers, since those are what determine whether the channel
+  actually scales with new customers.
+
 ## Pixel conditioning: what it actually does, and how it drifts
 
 - The pixel's held data window is roughly 180 days, but weighting is
