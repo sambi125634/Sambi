@@ -79,6 +79,26 @@ just a distribution mechanism — a larger following (and being introduced
 internally at client orgs by name) functions as social proof independent
 of any single post.
 
+**One-input, many-assets repurposing.** Don't write each post from a blank
+page — take a single rich source (a YouTube transcript, a long-form
+video, a newsletter draft) and, using a [[ai-context-engineering-profiles]]
+-style context system, regenerate it into several typed assets in one
+sitting: a thought-leadership version, a lead-magnet version, a
+simplified/"dumbed down" version, and an alternate value-post version
+with a different psychological framing — each for both LinkedIn and
+Twitter/X if you run both. This turns one source into ~6 revenue-relevant
+assets in minutes instead of hours, as long as the underlying context
+profile is already good (garbage context still produces garbage output
+at any volume).
+
+**Simplicity vs. reach tradeoff**: more sophisticated/technical copy
+generally gets *less* reach but builds authority — good for bottom-of-
+funnel/expert positioning. Deliberately simple copy (short sentences, a
+numbered fix, no jargon — approachable to someone brand-new to the topic)
+tends to reach further and works better top-of-funnel. Don't default to
+one register for every post; pick the register to match which funnel
+stage that specific post is for.
+
 ## Layer 3 — Hook mastery
 
 Only the first 1-2 lines + the visual asset get seen before "see more."
