@@ -1,6 +1,6 @@
 ---
 name: linkedin-inbound-lead-system
-description: Build a LinkedIn organic inbound lead-generation system — profile-as-landing-page optimization, a three-post content mix, hook formulas, visual asset strategy by funnel stage, an auto-DM lead-capture nurture flow, and the algorithm mechanics that make posts reach beyond first-degree connections. Trigger when the user wants to grow LinkedIn organically, generate leads without ads/cold DMs, write LinkedIn post hooks, optimize a LinkedIn profile for conversion, or set up comment-to-DM lead capture. Also trigger on Polish phrasing like "system leadowy na LinkedIn", "jak pisać hooki na LinkedIn", "optymalizacja profilu LinkedIn".
+description: Build a LinkedIn organic inbound lead-generation system — profile-as-landing-page optimization, a funnel-staged content mix (lead magnets, mechanism posts, thought leadership, free mechanism-based assets), hook formulas, visual asset strategy by funnel stage, an auto-DM lead-capture nurture flow, and the algorithm mechanics that make posts reach beyond first-degree connections. Trigger when the user wants to grow LinkedIn organically, generate leads without ads/cold DMs, write LinkedIn post hooks, optimize a LinkedIn profile for conversion, or set up comment-to-DM lead capture. Also trigger on Polish phrasing like "system leadowy na LinkedIn", "jak pisać hooki na LinkedIn", "optymalizacja profilu LinkedIn".
 ---
 
 # LinkedIn organic inbound lead system
@@ -36,17 +36,48 @@ content driving traffic to it is wasted:
 
 ## Layer 2 — Content mix (traffic mechanism)
 
-Post types map to funnel stage; don't post only one type:
+Post types map to funnel stage; don't post only one type. Traffic without
+this layer is worthless — plenty of accounts have huge follower counts and
+make $5-10K/month from sponsored posts only, because they never built the
+nurture layer below; real B2B revenue needs all three funnel stages
+present, not just top-of-funnel reach:
 
-- **Giveaway / lead magnet posts** — highest-value type; gate a resource
-  behind a comment trigger word (see Layer 5).
-- **Thought leadership posts** — frameworks/ideas from your own experience,
-  not generic tips.
-- **Technical breakdowns** — walk through your product/service/system in
-  detail.
+- **Top of funnel — giveaway / lead magnet posts**: drive pure reach.
+  Gate a resource behind a comment trigger word (see Layer 5). The visual
+  asset carries most of the weight here — a flat/generic image kills an
+  otherwise-good lead magnet.
+- **Top of funnel — technical / tool-use posts ("mechanism posts")**: show
+  the actual mechanism, not a generic claim. Structure: current-state pain
+  (be specific — exact hours, exact tool count) → dream-state after using
+  it (specific numbers again) → this is what creates the "gap" that makes
+  the ICP feel the post was written about them. Source the pain points and
+  FAQs straight from real sales-call transcripts (run them through AI to
+  extract common objections/misconceptions) — this pre-nurtures the reader
+  before they ever book a call, because the content already answers what
+  they'd have asked live.
+- **Middle of funnel — thought leadership / storytelling posts**: personal
+  story, contrarian takes, "how I think" content, often with zero CTA.
+  Purpose is pure trust-building, not conversion — your best-performing
+  founder story is often *not* your top lead-magnet post by reach, but it's
+  what prospects bring up unprompted on sales calls. Pin it to your
+  profile.
+- **Bottom of funnel — mechanism-based free assets**: once you have an
+  audience, give away genuinely world-class resources (full templates,
+  Airtable bases, playbooks) for free, ungated or lightly gated. The
+  perceived value itself becomes the pitch — prospects who tried the free
+  version come back asking for the done-for-you/larger-scale version
+  without any sales pitch needed. Pair with a direct "DM me X for the
+  done-for-you version" CTA once you have enough audience trust — this
+  only works after top/middle-funnel trust exists, not before.
 
-Funnel logic: reach (giveaway/thought-leadership posts) → relevance
-(comments trigger auto-DM nurture) → convert (CTA to book a call).
+Funnel logic: reach (top-of-funnel posts) → relevance/trust (middle-funnel
+storytelling + comments trigger auto-DM nurture) → convert (bottom-funnel
+proof + direct CTA to book a call).
+
+Growing your connection/follower count is itself a credibility asset, not
+just a distribution mechanism — a larger following (and being introduced
+internally at client orgs by name) functions as social proof independent
+of any single post.
 
 ## Layer 3 — Hook mastery
 

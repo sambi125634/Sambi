@@ -31,6 +31,23 @@ or competitors').
 image, text-overlay, and video formats, replacing paid competitive-
 intelligence subscriptions.
 
+**Generation engine detail**: treat creative generation as an entropy/
+combinatorics system, not a single prompt. Maintain explicit dimensions to
+sample from and recombine: campaign type (problem-agitate-solution,
+lifestyle, product-hero), persona, emotional tone, visual angle,
+setting/lighting, plus a product database (colors, variants, price points)
+and a live offer database (current promo, e.g. "buy 2 get 1 free",
+Black Friday pricing) so text overlays stay accurate without manual
+updates. Constrain the sampling space to what the actual audience
+resonates with (e.g. common pet breeds for a pet-product brand) rather
+than generating uniformly across every possible value — an unconstrained
+system wastes generation budget on combinations nobody buys. Once a still
+is approved, auto-derive format variants (e.g. a square hero shot →
+9:16 Stories crop) instead of regenerating from scratch. For video, don't
+aim for full 30-40s ads — current image/video models are strongest at
+5-8s B-roll/A-roll product clips; generate a library of these short clips
+and let a human editor assemble the final cut.
+
 ## Blueprint 2 — Finance / board-report automation
 
 **Problem it solves**: finance teams spend tens of hours/month manually
