@@ -1,6 +1,6 @@
 ---
 name: ai-context-engineering-profiles
-description: Build a persistent, structured context profile (business intelligence + ICP psychology + platform-native intelligence + identity programming) that turns a generic LLM into an AI that writes/thinks like a specific business — usable in a Claude Project, embedded directly into automation/SDR/chatbot workflows (e.g. n8n), or as a curated "AI advisor" knowledge base. Trigger when the user wants AI-generated content to stop "sounding like AI", wants an AI agent/automation/chatbot to "understand the business" instead of giving generic answers, wants to build an ICP profile from sales-call or support-ticket transcripts, wants an AI ghostwriter trained on their voice, or wants to train a team using AI + curated frameworks. Also trigger on Polish phrasing like "profil kontekstowy AI", "AI piszący moim głosem", "baza wiedzy dla AI jako doradcy", "profil ICP z rozmów sprzedażowych".
+description: Build a persistent, structured context profile (business intelligence + ICP psychology + platform-native intelligence + identity programming), then scale it into a single orchestration project (one unified context base + trigger-activated "cognitive architecture" files + stackable enhancement overlays) instead of one Claude Project per content type — usable for content, embedded directly into automation/SDR/chatbot workflows (e.g. n8n), or as a curated "AI advisor" knowledge base. Trigger when the user wants AI-generated content to stop "sounding like AI", wants an AI agent/automation/chatbot to "understand the business" instead of giving generic answers, wants to build an ICP profile from sales-call or support-ticket transcripts, wants an AI ghostwriter trained on their voice, is juggling too many separate AI projects/prompts and wants to consolidate them, or wants to train a team using AI + curated frameworks. Also trigger on Polish phrasing like "profil kontekstowy AI", "AI piszący moim głosem", "baza wiedzy dla AI jako doradcy", "profil ICP z rozmów sprzedażowych", "orkiestracja promptów AI".
 ---
 
 # Context engineering: AI that thinks like your best employee
@@ -28,6 +28,9 @@ model; markdown works too) in a persistent project/knowledge base:
 - **Personal/brand profile** — your own background, communication style,
   the way you personally articulate ideas (so output doesn't just sound
   correct, it sounds *like you*).
+- **Brand voice** — a distinct document describing tone/vocabulary/style,
+  separate from the ICP and business docs so it can be reused across every
+  content type.
 - **Other profile types worth building the same way**: product strategy,
   a marketing-frameworks profile distilled from campaigns that actually
   converted (not generic playbooks), and a customer-success/support
@@ -63,9 +66,6 @@ amateur automation and one that "understands the business": the same
 profile object that makes a ghostwriter sound authentic is what makes an
 SDR agent's objection-handling sound senior and a support chatbot's
 escalation judgment sound experienced.
-- **Brand voice** — a distinct document describing tone/vocabulary/style,
-  separate from the ICP and business docs so it can be reused across every
-  content type.
 
 ## Layer 2 — Platform-native intelligence
 
@@ -98,6 +98,66 @@ content: the same three-layer stack (business intelligence → channel-
 native intelligence → identity) works for sales copy, newsletters, YouTube
 scripts, blog posts, and AI-SDR follow-up messages — anywhere you need
 output that's specifically *yours*, not generic AI output.
+
+## Scaling past Layer 3: one orchestration system, not N projects
+
+The naive way to apply Layers 1-3 is one Claude Project per content type
+(a LinkedIn-thought-leader project, a LinkedIn-lead-magnet project, a
+Twitter project, a newsletter project...). This works initially but
+creates its own bottleneck at volume: you have to remember which project
+to open, manually keep every project's context profiles in sync whenever
+you update your ICP or brand voice, and re-paste content between projects
+to repurpose it. N projects means N copies of your context to maintain.
+
+**The fix is architectural, not just organizational: collapse to one
+project that orchestrates, instead of many projects that each embed an
+identity.**
+
+- **One unified cognitive base** — your context profiles (business
+  context, ICP, brand voice, product strategy, personal profile) exist
+  in exactly one place, in the knowledge base of a single project. Update
+  them once; every content type immediately sees the update.
+- **Cognitive architectures, not per-project system prompts** — what used
+  to be each separate project's system prompt (the identity-based
+  ghostwriter prompt, per Layer 3) becomes instead a *knowledge-base file*
+  inside the one project, one per content type/platform (LinkedIn thought
+  leader, LinkedIn lead magnet, Twitter lead magnet, newsletter, YouTube
+  script, etc.). Each is still a full identity+framework prompt, just
+  stored as data the orchestrator can select, not as the live system
+  prompt.
+- **The project's actual system prompt becomes a thin router**, with no
+  content identity of its own. Its job is only: identify which knowledge-
+  base files a given request needs, extract constraints from the request
+  (word count, tone, platform), pull the relevant example/formatting file
+  to study, execute against those exact constraints, and never ask
+  clarifying questions or guess when a trigger word is ambiguous — do the
+  file-selection reasoning internally, then just produce the content.
+- **Explicit activation tiers**: (1) a small set of "core" files that are
+  *always* loaded regardless of request (business context, ICP, brand
+  voice) — the non-negotiable foundation; (2) cognitive-architecture files
+  loaded only when their trigger phrase appears in the request (e.g. "make
+  a LinkedIn lead magnet post" only loads the LinkedIn-lead-magnet
+  cognitive file + its matching example file); (3) optional "enhancement/
+  boost" files — small, separately-triggered overlays (e.g. a
+  "persuasion amplifier" or "authority builder" JSON) invoked by phrases
+  like "make it more conversion-driven" or "build more authority" *after*
+  a draft exists, layered on top rather than baked into the base
+  generation. Treat these boosts as composable modifiers, not
+  replacements — you can stack "dumb it down" and "build more authority"
+  in sequence on the same draft.
+- **This is what makes true one-input, multi-platform repurposing cheap**:
+  because every content type draws from the same unified context, turning
+  one podcast/video transcript into a LinkedIn post, a Twitter thread, and
+  a newsletter is just invoking three different cognitive-architecture
+  files against the same underlying content and context — no manual
+  re-pasting of profiles between separate projects.
+- **Team scaling payoff**: give every team member (not just
+  marketing/content) access to the same orchestrated project. Every
+  employee's LLM conversation then starts already knowing the business
+  instead of starting from zero in a fresh ChatGPT/Claude tab each time —
+  this is the mechanism, not just a nice-to-have, behind teams that seem
+  to get dramatically more out of AI than teams issued the same tools with
+  no shared context.
 
 ## Layer 4 — Curated external knowledge base (AI as advisor)
 
